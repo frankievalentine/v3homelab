@@ -1,0 +1,57 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services
+
+- Virtualization:
+    - Proxmox:
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/proxmox.webp
+        href: 
+        description: PVE1
+    - PBS:
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/proxmox-light.webp
+        href: 
+        description: Proxmox Backup Server
+    - TrueNAS:
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/truenas.webp
+        href: 
+        description: TrueNAS Scale Electric Eel
+    - Home Assistant OS:
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/home-assistant.webp
+        href: 
+        description: Home Assistant Dashboard
+
+- Services:
+    - Dockge:
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/dockge.webp
+        href: 
+        description: Dockge Dashboard
+    - Jellyfin:
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/jellyfin.webp
+        href: 
+        description: Jellyfin Media Server
+    - Beszel:
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/beszel.webp
+        href: 
+        description: Beszel Server Monitoring
+    - PgAdmin:
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/pgadmin.webp
+        href: 
+        description: PgAdmin Postgres Dashboard
+    - Redis Insight:
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/redis.webp
+        href: 
+        description: Redis Insight Dashboard
+
+- Network:
+    - Unifi Controller:
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/unifi.webp
+        href: 
+        description: Unifi Network
+    - Adguard Home 1:
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/adguard-home.webp
+        href: 
+        description: Adguard Home Diet Pi
+    - Adguard Home 2:
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/adguard-home.webp
+        href: 
+        description: Adguard Home Proxmox

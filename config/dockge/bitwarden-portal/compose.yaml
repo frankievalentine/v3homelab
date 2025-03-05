@@ -1,0 +1,8 @@
+services:
+    bitwarden-portal:
+        image: reaper0x1/bitwarden-portal:latest
+        container_name: bitwarden-portal
+        env_file: .env
+        volumes:
+            - your-backups-folder:/app/backups
+        restart: unless-stopped

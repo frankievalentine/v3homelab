@@ -1,0 +1,14 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/settings
+
+title: Frankie's Homepage
+theme: dark
+background:
+  image: https://raw.githubusercontent.com/nikolovlazar/dotfiles/refs/heads/main/.config/wezterm/assets/bg-blurred-darker.png
+cardBlur: sm # sm, "", md, etc... see https://tailwindcss.com/docs/backdrop-blur
+color: indigo
+headerStyle: clean
+hideVersion: true
+
+providers:
