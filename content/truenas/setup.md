@@ -1,8 +1,6 @@
 ---
-title: TrueNAS Scale
-draft: true
-tags:
-  - ad-blocking
+title: Setup
+draft: false
 ---
 
 Current VM's:
