@@ -5,53 +5,62 @@
 - Virtualization:
     - Proxmox:
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/proxmox.webp
-        href: 
+        href: https://10.0.0.95:8006
         description: PVE1
     - PBS:
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/proxmox-light.webp
-        href: 
+        href: https://10.0.0.93:8007
         description: Proxmox Backup Server
     - TrueNAS:
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/truenas.webp
-        href: 
+        href: https://truenas-scale.tuxedo-wahoo.ts.net/ui/sessions/signin
         description: TrueNAS Scale Electric Eel
     - Home Assistant OS:
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/home-assistant.webp
-        href: 
+        href: http://homeassistant.local:8123/lovelace/0
         description: Home Assistant Dashboard
 
 - Services:
     - Dockge:
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/dockge.webp
-        href: 
+        href: http://10.0.0.99:5001
         description: Dockge Dashboard
     - Jellyfin:
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/jellyfin.webp
-        href: 
+        href: http://10.0.0.92:30013
         description: Jellyfin Media Server
     - Beszel:
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/beszel.webp
-        href: 
+        href: http://10.0.0.99:8090
         description: Beszel Server Monitoring
     - PgAdmin:
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/pgadmin.webp
-        href: 
+        href: http://10.0.0.99:5050/browser/
         description: PgAdmin Postgres Dashboard
     - Redis Insight:
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/redis.webp
-        href: 
+        href: http://10.0.0.99:8001/redis-stack/browser
         description: Redis Insight Dashboard
+    - Immich:
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/immich.webp
+        href: http://10.0.0.92:30041
+        description: Immich Photo and Video Library
+        widget:
+            type: immich
+            url: http://10.0.0.92:30041
+            key: VgX6MksfH9wZ5W4EOILq9lzqBrDkCr1CgwPW3pmY
+            version: 2
 
 - Network:
     - Unifi Controller:
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/unifi.webp
-        href: 
+        href: https://unifi.tuxedo-wahoo.ts.net:8443/manage/account/login?redirect=/manage
         description: Unifi Network
     - Adguard Home 1:
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/adguard-home.webp
-        href: 
+        href: https://10.0.0.39:8083
         description: Adguard Home Diet Pi
     - Adguard Home 2:
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/adguard-home.webp
-        href: 
+        href: https://10.0.0.210
         description: Adguard Home Proxmox
