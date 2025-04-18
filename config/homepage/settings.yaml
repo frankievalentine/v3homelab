@@ -9,6 +9,8 @@ background:
 cardBlur: sm # sm, "", md, etc... see https://tailwindcss.com/docs/backdrop-blur
 color: indigo
 headerStyle: clean
+bookmarksStyle: icons
+
 # hideVersion: true
 
 providers:

@@ -15,16 +15,25 @@
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/truenas.webp
         href: https://truenas-scale.tuxedo-wahoo.ts.net/ui/sessions/signin
         description: TrueNAS Scale Electric Eel
-    - Home Assistant OS:
-        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/home-assistant.webp
-        href: http://homeassistant.local:8123/lovelace/0
-        description: Home Assistant Dashboard
 
 - Services:
+    - Immich:
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/immich.webp
+        href: http://10.0.0.92:30041
+        description: Immich Photo and Video Library
+        widget:
+            type: immich
+            url: http://10.0.0.92:30041
+            key: VgX6MksfH9wZ5W4EOILq9lzqBrDkCr1CgwPW3pmY
+            version: 2
     - Dockge:
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/dockge.webp
         href: http://10.0.0.99:5001
         description: Dockge Dashboard
+    - Home Assistant:
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/home-assistant.webp
+        href: http://homeassistant.local:8123/lovelace/0
+        description: Home Assistant Dashboard
     - Jellyfin:
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/jellyfin.webp
         href: http://10.0.0.92:30013
@@ -41,15 +50,19 @@
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/redis.webp
         href: http://10.0.0.99:8001/redis-stack/browser
         description: Redis Insight Dashboard
-    - Immich:
-        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/immich.webp
-        href: http://10.0.0.92:30041
-        description: Immich Photo and Video Library
-        widget:
-            type: immich
-            url: http://10.0.0.92:30041
-            key: VgX6MksfH9wZ5W4EOILq9lzqBrDkCr1CgwPW3pmY
-            version: 2
+    - Open WebUI:
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/open-webui.webp
+        href: http://10.0.0.92:31028
+        description: Open WebUI Dashboard
+    - Wallos:
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/wallos.webp
+        href: http://10.0.0.99:8282/
+        description: Wallos Subscription Manager
+    - Maybe Finance:
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/maybe.webp
+        href: http://10.0.0.99:3001
+        description: Maybe Finance Dashboard
+    
 
 - Network:
     - Unifi Controller:
@@ -64,3 +77,7 @@
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/adguard-home.webp
         href: https://10.0.0.210
         description: Adguard Home Proxmox
+    - Traefik:
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/traefik.webp
+        href: http://10.0.0.161:8080
+        description: Traefik Proxy

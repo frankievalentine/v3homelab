@@ -2,3 +2,7 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/bookmarks
 
+- Bookmarks:
+    - Proxmox Helper Scripts:
+        - icon: si-proxmox
+          href: https://community-scripts.github.io/ProxmoxVE/scripts?id=homepage
